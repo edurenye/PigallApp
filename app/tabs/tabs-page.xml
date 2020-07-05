@@ -1,0 +1,28 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+	<BottomNavigation>
+		<TabStrip>
+			<TabStripItem>
+				<Label text="Home"></Label>
+				<Image src="res://home"></Image>
+			</TabStripItem>
+			<TabStripItem>
+				<Label text="Viewer"></Label>
+				<Image src="res://home"></Image>
+			</TabStripItem>
+			<TabStripItem>
+				<Label text="Settings"></Label>
+				<Image src="res://settings"></Image>
+			</TabStripItem>
+		</TabStrip>
+		<TabContentItem>
+			<Frame defaultPage="home/home-page" />
+		</TabContentItem>
+		<TabContentItem>
+			<Frame defaultPage="viewer/viewer-page" />
+		</TabContentItem>
+		<TabContentItem>
+			<Frame defaultPage="settings/settings-page" />
+		</TabContentItem>
+	</BottomNavigation>
+</Page>

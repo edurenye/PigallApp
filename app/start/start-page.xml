@@ -1,0 +1,17 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ScrollView>
+        <StackLayout class="start-panel">
+            <Label textWrap="true"
+                text="Instructions to connect to the Pigall Device:"
+                class="h2 description-label" />
+            <Label textWrap="true"
+                text="Power on the device and wait 30 seconds, if it's the first time it can take up to 2 minutes to start."
+                class="h2 description-label" />
+            <Label textWrap="true"
+                text="Press the button below to connect:"
+                class="h2 description-label" />
+            <Button text="Connect to the Pigall device" tap="{{ onButtonTap }}" />
+        </StackLayout>
+    </ScrollView>
+</Page>

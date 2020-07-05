@@ -1,0 +1,7 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+	<ActionBar title="Settings">
+		<NavigationButton  tap="onNavBtnTap" text="Go Back" android.systemIcon="ic_menu_back"></NavigationButton>
+	</ActionBar>
+
+</Page>

@@ -1,0 +1,9 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+	<ActionBar title="Viewer">
+		<NavigationButton  tap="onNavBtnTap" text="Go Back" android.systemIcon="ic_menu_back"></NavigationButton>
+		<ActionItem  tap="onReload" text="Reload" ios.systemIcon="13" android.systemIcon="ic_menu_refresh" ios.position="right"></ActionItem>
+	</ActionBar>
+
+	<WebView height="1200px" src="http://192.168.16.100/capture" />
+</Page>

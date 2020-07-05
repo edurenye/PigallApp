@@ -1,0 +1,14 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+	<ActionBar title="Home">
+		<NavigationButton  tap="onNavBtnTap" text="Go Back" android.systemIcon="ic_menu_back"></NavigationButton>
+	</ActionBar>
+
+	<ScrollView>
+		<StackLayout class="home-panel">
+			<Button text="Save image" tap="{{ saveImage }}" />
+			<Button text="Save clip" tap="{{ saveClip }}" />
+		</StackLayout>
+	</ScrollView>
+
+</Page>
